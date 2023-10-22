@@ -1,0 +1,74 @@
+@import 'colors';
+@import 'typography';
+@import 'icons';
+@import '/node_modules/@splidejs/splide/dist/css/splide.min.css';
+
+body {
+    display: flex;
+    max-width: 757px;
+    min-width: 375px;
+    margin: 0 auto;
+    font-family: $font-poppins-family;
+
+    .container {
+        
+        .outer-eclipse {
+
+            img.profile-picture {
+                border-radius: 100%;
+                border: 4px solid $golden-yellow;
+            }
+        }
+    }
+
+    .card {
+        transition: transform .2s;
+    }
+
+    .card:hover {
+        transform: scale(1.03);
+    }
+
+    .card-title {
+        font-size: .9em;
+        font-weight: $font-weight-medium;
+        text-transform: uppercase;
+    }
+
+    .card-title:hover {
+        text-decoration: underline;
+    }
+
+    .card-text {
+        color: $slate-gray;
+        font-size: .8em;
+    }
+
+    .splide__slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /* Style the scroll-to-top button as desired */
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: $slate-gray;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        width: 40px;
+        height: 42px;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    h2.stack {
+        text-decoration: underline;
+    }
+
+}

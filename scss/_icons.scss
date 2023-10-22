@@ -1,0 +1,51 @@
+@import 'colors';
+
+i.fa-html5 {
+    color: $i-html5;
+}
+
+i.fa-bootstrap {
+    color: $i-bootstrap;
+}
+
+i.fa-square-js {
+    color: $i-js;
+}
+
+i.fa-sass {
+    color: $i-sass;
+}
+
+i.fa-link {
+    color: $slate-gray;
+}
+
+i.fa-link:hover {
+    color: rgb(40, 104, 243);
+}
+
+i.fa-java {
+    color: $i-java;
+}
+
+i.fa-python {
+    color: hsl(240, 100%, 50%);
+}
+
+i.fa-eye {
+    color: $slate-gray;
+}
+
+i.fa-eye:hover {
+    color: rgb(40, 104, 243);
+}
+
+i.bi-linkedin {
+    color: hsl(232, 84%, 61%);
+}
+
+i.bi-sunrise,
+i.bi-sunset {
+    cursor: pointer;
+    
+}

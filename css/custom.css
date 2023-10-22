@@ -1,0 +1,105 @@
+@import '/node_modules/@splidejs/splide/dist/css/splide.min.css';
+i.fa-html5 {
+  color: hsl(33, 81%, 58%);
+}
+
+i.fa-bootstrap {
+  color: hsl(231, 86%, 54%);
+}
+
+i.fa-square-js {
+  color: hsl(50, 86%, 54%);
+}
+
+i.fa-sass {
+  color: hsl(309, 77%, 83%);
+}
+
+i.fa-link {
+  color: hsl(207, 7%, 67%);
+}
+
+i.fa-link:hover {
+  color: rgb(40, 104, 243);
+}
+
+i.fa-java {
+  color: hsl(0, 100%, 50%);
+}
+
+i.fa-python {
+  color: hsl(240, 100%, 50%);
+}
+
+i.fa-eye {
+  color: hsl(207, 7%, 67%);
+}
+
+i.fa-eye:hover {
+  color: rgb(40, 104, 243);
+}
+
+i.bi-linkedin {
+  color: hsl(232, 84%, 61%);
+}
+
+i.bi-sunrise,
+i.bi-sunset {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  max-width: 757px;
+  min-width: 375px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  /* Style the scroll-to-top button as desired */
+}
+body .container .outer-eclipse img.profile-picture {
+  border-radius: 100%;
+  border: 4px solid hsl(48, 92%, 60%);
+}
+body .card {
+  transition: transform 0.2s;
+}
+body .card:hover {
+  transform: scale(1.03);
+}
+body .card-title {
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body .card-title:hover {
+  text-decoration: underline;
+}
+body .card-text {
+  color: hsl(207, 7%, 67%);
+  font-size: 0.8em;
+}
+body .splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body .scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: hsl(207, 7%, 67%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 40px;
+  height: 42px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+body h2.stack {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=custom.css.map */
