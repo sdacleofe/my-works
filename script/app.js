@@ -1,3 +1,4 @@
+
 // splide script
 document.addEventListener("DOMContentLoaded", function () {
     new Splide("#thumbnail-carousel", {
